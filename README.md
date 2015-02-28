@@ -23,6 +23,11 @@ Hekyll should:
 3. Configure options in _config.yml
 4. Create a new Markdown file for each slide in ``_posts``. Use the ``post_template.md`` as a starting point. Be sure to name each file with a date, just like Jekyll.
 
+## Notes
+
+You can add notes to yous slides by adding a ``notes`` field in your slide header.
+Then press <P> to show your notes!
+
 ## Requirements
 
 - Jekyll

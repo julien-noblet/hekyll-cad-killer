@@ -2,4 +2,7 @@
   {% if post.title != "" %}<h1>{{ post.title }}</h1>{% endif %}
 
   {{ post.content }}
+  {% if post.notes %}
+  <div class="notes">{{ post.notes }}</div>
+  {% endif %}
 </div>
