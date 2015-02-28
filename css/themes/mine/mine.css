@@ -236,6 +236,8 @@ h2 {
   line-height: 36px;
   letter-spacing: -1px; }
 
+.slide .notes {
+  display: none; }
 .slide q {
   display: block;
   font-size: 50px;
@@ -273,7 +275,7 @@ h2 {
 .impress-not-supported .step {
   position: relative;
   opacity: 1;
-  margin: 20px auto; }
+  margin: 0px auto; }
 .impress-not-supported .fallback-message {
   display: block; }
 

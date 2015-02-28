@@ -135,6 +135,9 @@ h2 {
 }
 
 .slide {
+  .notes {
+    display:none;
+  }
   q {
     display: block;
     font-size: 50px;
@@ -194,7 +197,7 @@ h2 {
   .step {
     position: relative;
     opacity: 1;
-    margin: 20px auto;
+    margin: 0px auto;
   }
   .fallback-message {
     display: block;
