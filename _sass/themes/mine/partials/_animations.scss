@@ -1,0 +1,14 @@
+.tored{
+  -webkit-transition: color 1s ease-in;
+  -moz-transition:    color 1s ease-in;
+  -ms-transition:     color 1s ease-in;
+  -o-transition:      color 1s ease-in;
+  transition:         color 1s ease-in;
+  color:red;
+  -webkit-transition-delay: 2s;
+  -moz-transition-delay:    2s;
+  -ms-transition-delay:     2s;
+  -o-transition-delay:      2s;
+  transition-delay:         2s;
+  text-shadow: 10px 8px 10px #bbb;
+}
