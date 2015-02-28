@@ -1,14 +1,26 @@
-.tored{
-  -webkit-transition: color 1s ease-in;
-  -moz-transition:    color 1s ease-in;
-  -ms-transition:     color 1s ease-in;
-  -o-transition:      color 1s ease-in;
-  transition:         color 1s ease-in;
-  color:red;
-  -webkit-transition-delay: 2s;
-  -moz-transition-delay:    2s;
-  -ms-transition-delay:     2s;
-  -o-transition-delay:      2s;
-  transition-delay:         2s;
-  text-shadow: 10px 8px 10px #bbb;
+.active{
+  $colors: ("red": #ff0000);
+  @each $colorname,$color in $colors{
+    .anim-to#{$colorname} {
+      color:#{$color};
+      text-shadow: 10px 8px 10px #bbb;
+    }
+  }
+
+  $scales: (1_1: 1.1, 1_2: 1.2, 1_3: 1.3, 1_4: 1.4, 1_5: 1.5, 2: 2);
+  @each $scalename, $scale in $scales{
+    .scale-#{$scalename} {
+      transform: scale(#{$scale});
+    }
+  }
+  @for $i from 0 through 5000 {
+    .transition-#{$i}ms {
+      transition:         all #{$i}ms ease-in;
+    }
+  }
+  @for $i from 0 through 5000 {
+    .delay-#{$i}ms {
+      transition-delay:         #{$i}ms;
+    }
+  }
 }

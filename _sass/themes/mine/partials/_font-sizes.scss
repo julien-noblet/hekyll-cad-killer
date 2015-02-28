@@ -1,6 +1,6 @@
-$sizes: 66, 70, 72, 80, 88, 90, 92, 97, 100, 150;
-@each $s in $sizes{
+@for $s from 1 through 150{
   .s#{$s} {
     font-size: #{$s}pt;
+    line-height:1em;
   }
 }
