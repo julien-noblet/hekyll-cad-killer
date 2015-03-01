@@ -10,7 +10,7 @@ data:
   y: 0
 
 ---
-<div class="s77">
+<div class="s80">
 Pourtant, bien souvent,
 le destinataire existe et
 l'adresse est bonne!

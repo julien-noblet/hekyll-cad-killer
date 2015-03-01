@@ -13,14 +13,27 @@
       transform: scale(#{$scale});
     }
   }
-  @for $i from 0 through 5000 {
+  @for $i from 0 through 10000 {
     .transition-#{$i}ms {
       transition:         all #{$i}ms ease-in;
     }
   }
-  @for $i from 0 through 5000 {
+  @for $i from 0 through 30000 {
     .delay-#{$i}ms {
       transition-delay:         #{$i}ms;
     }
   }
+
+  .anim-show {
+    opacity: 1.0;
+  }
+}
+
+.future {
+  .anim-show {
+    opacity: 0.0;
+  }
+}
+
+.past {
 }

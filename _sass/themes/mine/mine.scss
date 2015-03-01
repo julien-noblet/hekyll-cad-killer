@@ -112,8 +112,8 @@ h2 {
 .slide {
     display: block;
 
-    width: 900px;
-    height: 700px;
+    width: $slide_width;
+    height: $slide_height;
 
     padding: 40px 60px;
 
@@ -166,6 +166,10 @@ h2 {
 
   ul, p, h2, h3, h4, h5, h6 {
      margin-top: 1em;
+  }
+
+  ul.dots{
+    list-style: initial;
   }
 
   li {

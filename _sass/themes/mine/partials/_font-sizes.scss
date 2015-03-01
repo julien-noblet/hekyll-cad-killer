@@ -4,3 +4,18 @@
     line-height:1em;
   }
 }
+@for $s from 0 through $max-height{
+  @each $e in top, bottom, left, right{
+    .margin-#{$e}-#{$s}px {
+      margin-#{$e}: #{$s}px !important;
+    }
+  }
+}
+
+@for $s from 0 through 5{
+  @each $e in top, bottom, left, right{
+    .margin-#{$e}-#{$s}em {
+      margin-#{$e}: #{$s}em !important;
+    }
+  }
+}
