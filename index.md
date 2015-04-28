@@ -1,13 +1,10 @@
 ---
 layout: default
-title: Hekyll Presentation Generator
+title: Présentation de CAD-Killer pour GLS
 ---
 
-# Hekyll #
-_pronunciation: "heckle"_
+# Présentation de CAD-Killer pour GLS #
 
-Hekyll is a presentation generator that uses Jekyll and Impress.js to create awesome presentations. You write Markdown files, which get turned into individual slides for an Impress.js presentation. How cool is that?
+Support de présentation pour [CAD-Killer](http://julien-noblet.github.io/cad-killer)
 
-[Check it out in action!](preso.html)
-
-[Fork me on GitHub](https://github.com/bmcmurray/hekyll)
+[Voir la présentation](preso.html)
