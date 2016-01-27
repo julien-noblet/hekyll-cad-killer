@@ -10,7 +10,7 @@ data:
   y: 0
 
 ---
-<h2>Ou, comment réduire le nombre de colis en problèmes d'adresses.</h2>
+<h2>Ou, comment trouver en un clic un destinataire</h2>
 
 <p class="source_text">
   Julien Noblet 2015
